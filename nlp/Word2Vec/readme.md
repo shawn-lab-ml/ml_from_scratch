@@ -19,6 +19,8 @@ To explain negative sampling I will use the case of Skip-Gram Word2Vec which is 
 
 The Skip-gram model represents learning the context given a center word (as opposed to the CBOW model). For instance in the sentence we might try to learn what context occurs at the same time as the word "fox" and in our corpus we might have the sentence "The quick brown fox jumps over the lazy dog". Therefore we will try to learn that "quick" and "brown" occur close to the word "fox".
 
+![Skip-Gram](https://github.com/shawn-lab-ml/ml_from_scratch/blob/master/nlp/Word2Vec/skipgram.png)
+
 
 ## Negative Sampling
 
